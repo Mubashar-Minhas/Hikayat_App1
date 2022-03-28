@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Hikayat App</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="app_title">Hikayat</string>
+    <string name="categories_fragment_title">Categories</string>
+    <string name="books_fragment_title">Books</string>
+</resources>

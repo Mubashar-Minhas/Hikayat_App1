@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_title">Hikayat</string>
+    <string name="categories_fragment_title">Categories</string>
+    <string name="books_fragment_title">Books</string>
+</resources>

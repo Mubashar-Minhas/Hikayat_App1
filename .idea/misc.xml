@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/MASTER/AndroidStudioProjects/HikayatApp/app/src/main/res/drawable/bottom_sheet_style.xml" value="0.1" />
+        <entry key="..\:/Users/MASTER/AndroidStudioProjects/HikayatApp/app/src/main/res/drawable/story_layout_style.xml" value="0.1" />
+        <entry key="..\:/Users/MASTER/AndroidStudioProjects/HikayatApp/app/src/main/res/drawable/textview_button_style.xml" value="0.1" />
+        <entry key="..\:/Users/MASTER/AndroidStudioProjects/HikayatApp/app/src/main/res/layout/activity_main.xml" value="0.1796875" />
+        <entry key="..\:/Users/MASTER/AndroidStudioProjects/HikayatApp/app/src/main/res/layout/books_list.xml" value="0.1796875" />
+        <entry key="..\:/Users/MASTER/AndroidStudioProjects/HikayatApp/app/src/main/res/layout/bottom_sheet_dialog_layout.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/MASTER/AndroidStudioProjects/HikayatApp/app/src/main/res/layout/fragment_books.xml" value="0.1796875" />
+        <entry key="..\:/Users/MASTER/AndroidStudioProjects/HikayatApp/app/src/main/res/layout/fragment_category.xml" value="0.1796875" />
+        <entry key="..\:/Users/MASTER/AndroidStudioProjects/HikayatApp/app/src/main/res/layout/fragment_home.xml" value="0.1796875" />
+        <entry key="..\:/Users/MASTER/AndroidStudioProjects/HikayatApp/app/src/main/res/layout/fragment_home2.xml" value="0.14666666666666667" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/splashFragment">
+
+    <fragment
+        android:id="@+id/splashFragment"
+        android:name="com.nebulark.hikayatapp.SplashFragment"
+        android:label="fragment_splash"
+        tools:layout="@layout/fragment_home" >
+
+        <action
+            android:id="@+id/action_splashFragment_to_homeFragment2"
+            app:destination="@id/homeFragment2"
+            app:enterAnim="@android:anim/slide_out_right"
+            app:exitAnim="@android:anim/slide_out_right" />
+    </fragment>
+    <fragment
+        android:id="@+id/homeFragment2"
+        android:name="com.nebulark.hikayatapp.HomeFragment"
+        android:label="fragment_home2"
+        tools:layout="@layout/fragment_home2" >
+        <action
+            android:id="@+id/action_homeFragment2_to_booksFragment"
+            app:destination="@id/booksFragment" />
+        <action
+            android:id="@+id/action_homeFragment2_to_categoryFragment"
+            app:destination="@id/categoryFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/booksFragment"
+        android:name="com.nebulark.hikayatapp.BooksFragment"
+        android:label="fragment_books"
+        tools:layout="@layout/fragment_books" />
+    <fragment
+        android:id="@+id/categoryFragment"
+        android:name="com.nebulark.hikayatapp.CategoryFragment"
+        android:label="fragment_category"
+        tools:layout="@layout/fragment_category" />
+</navigation>
