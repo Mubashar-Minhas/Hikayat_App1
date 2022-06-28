@@ -4,12 +4,16 @@ import android.os.Build
 import android.os.Bundle
 import android.view.WindowManager
 import androidx.appcompat.app.AppCompatActivity
+import androidx.navigation.findNavController
+import androidx.navigation.ui.setupActionBarWithNavController
 
  @Suppress("DEPRECATION")
  class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+
+
 
         //set status bar color
 
@@ -20,5 +24,13 @@ import androidx.appcompat.app.AppCompatActivity
             window.clearFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS)
             window.statusBarColor = this.resources.getColor(R.color.app_color)
         }
+        //setupActionBarWithNavController(findNavController(R.id.fragmentContainerView))
     }
+
+     override fun onSupportNavigateUp(): Boolean {
+
+         val navController = findNavController(R.id.fragmentContainerView)
+
+         return navController.navigateUp() || super.onSupportNavigateUp()
+     }
 }

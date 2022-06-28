@@ -3,6 +3,9 @@ package com.nebulark.hikayatapp.adapter
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Button
+import android.widget.LinearLayout
+import androidx.navigation.Navigation
 import androidx.recyclerview.widget.RecyclerView
 import com.google.android.material.textview.MaterialTextView
 import com.nebulark.hikayatapp.R
@@ -20,6 +23,8 @@ class BooksAdapter(private val booksList: ArrayList<BooksDataModel>) : RecyclerV
 
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
         holder.bindItems(booksList [position])
+
+
     }
 
     override fun getItemCount(): Int {
@@ -33,8 +38,18 @@ class BooksAdapter(private val booksList: ArrayList<BooksDataModel>) : RecyclerV
         fun bindItems(booksList: BooksDataModel) {
             val textViewSerialNo = itemView.findViewById(R.id.bookNo) as MaterialTextView
             val textViewBookName = itemView.findViewById(R.id.bookName) as MaterialTextView
+            //val booksLayout=itemView.findViewById<LinearLayout>(R.id.bookLayout) as LinearLayout
             textViewSerialNo.text = booksList.serialNo
             textViewBookName.text = booksList.bookName
+
+
+          //go to bike details fragment
+            itemView.findViewById<LinearLayout>(R.id.bookLayout).setOnClickListener {
+
+
+                Navigation.findNavController(itemView).navigate(R.id.action_booksFragment_to_homeFragment2)
+            }
+
         }
 
 

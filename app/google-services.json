@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "19718006834",
+    "project_id": "hikayat-app-dfbfa",
+    "storage_bucket": "hikayat-app-dfbfa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:19718006834:android:45711e2d37b39405c4742b",
+        "android_client_info": {
+          "package_name": "com.nebulark.hikayatapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "19718006834-sr1gp0ir3gs656llskl0154vivpdednp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDAWL2etsorCzR2ofahOqzeKiEjDZbhN7g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "19718006834-sr1gp0ir3gs656llskl0154vivpdednp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
