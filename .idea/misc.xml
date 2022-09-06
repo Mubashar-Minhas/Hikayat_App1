@@ -4,6 +4,7 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/MASTER/AndroidStudioProjects/HikayatApp/app/src/main/res/drawable/bottom_sheet_style.xml" value="0.1" />
+        <entry key="..\:/Users/MASTER/AndroidStudioProjects/HikayatApp/app/src/main/res/drawable/loading_layout_style.xml" value="0.1" />
         <entry key="..\:/Users/MASTER/AndroidStudioProjects/HikayatApp/app/src/main/res/drawable/story_layout_style.xml" value="0.1" />
         <entry key="..\:/Users/MASTER/AndroidStudioProjects/HikayatApp/app/src/main/res/drawable/textview_button_style.xml" value="0.1" />
         <entry key="..\:/Users/MASTER/AndroidStudioProjects/HikayatApp/app/src/main/res/layout/activity_main.xml" value="0.1796875" />
@@ -13,6 +14,8 @@
         <entry key="..\:/Users/MASTER/AndroidStudioProjects/HikayatApp/app/src/main/res/layout/fragment_category.xml" value="0.1796875" />
         <entry key="..\:/Users/MASTER/AndroidStudioProjects/HikayatApp/app/src/main/res/layout/fragment_home.xml" value="0.1796875" />
         <entry key="..\:/Users/MASTER/AndroidStudioProjects/HikayatApp/app/src/main/res/layout/fragment_home2.xml" value="0.14666666666666667" />
+        <entry key="..\:/Users/MASTER/AndroidStudioProjects/HikayatApp/app/src/main/res/layout/nav_header_main.xml" value="0.1796875" />
+        <entry key="..\:/Users/MASTER/AndroidStudioProjects/HikayatApp/app/src/main/res/menu/activity_main_drawer.xml" value="0.1796875" />
       </map>
     </option>
   </component>

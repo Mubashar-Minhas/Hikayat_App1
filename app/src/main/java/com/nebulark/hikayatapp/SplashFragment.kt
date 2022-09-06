@@ -22,7 +22,7 @@ private const val ARG_PARAM2 = "param2"
 @Suppress("DEPRECATION")
 class SplashFragment : Fragment() {
     // TODO: Rename and change types of parameters
-    private var TIME_OUT:Long = 1000
+    private var TIME_OUT:Long = 2000
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
